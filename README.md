@@ -19,7 +19,9 @@ This design targets a 3.3V output and can be easily adapted to other output volt
 
 ## Integrate the module in your PCB project
 
-<img src="assets/20260602_185533_image.png" alt="MP1584EN Buck Converter" width="400" style="display: block; margin-left: auto; margin-right: auto;">
+<p align="center">
+  <img src="assets/20260602_185533_image.png" alt="MP1584EN Buck Converter" width="400">
+</p>
 
 This project uses a hierarchical sheet structure to make the converter easy to reuse and configure. Parameters such as the feedback resistors (R1 and R2) can be adjusted directly from the parent schematic.
 
