@@ -1,8 +1,7 @@
 # MP1584EN KiCad Template & Module
 
 <p align="center">
-  <img src="assets/20260602_181428_buck.jpg" alt="MP1584EN Buck Converter" width="300">
-  <img src="assets/20260602_193507_image.png" alt="MP1584EN PCB Layout" width="300">
+  <img src="assets/title.png" alt="MP1584EN Buck Converter" width="600">
 </p>
 
 This project provides a custom PCB layout for the MP1584EN switching regulator, inspired by the manufacturer's recommended reference design while incorporating layout improvements to enhance performance, manufacturability, and ease of integration.
