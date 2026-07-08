@@ -38,6 +38,14 @@ For example, a 3.3V output requires an R1 value of approximately 125kΩ.
 
 In most applications, the resistor values do not need to be exact, as small deviations will only result in a minor change in the output voltage.
 
+## Soldering Process
+
+Due to the size of the components, **reflow soldering with solder paste is the recommended assembly method**. The PCB footprint has been designed with sufficiently large pads, allowing solder paste to be applied manually in most cases without the need for a stencil.
+
+With enough patience, good flux, and a fine-tip soldering iron, the board can also be assembled by hand, although reflow soldering will generally provide the best results.
+
+**Watch the soldering process** [here](assets/20260602_181943_MP1584EN-Soldering.mp4)
+
 ## Bill of Materials
 
 
@@ -58,14 +66,6 @@ In most applications, the resistor values do not need to be exact, as small devi
 | R2        | 40.2kΩ        | Feedback Resistor (3.3V Output) |
 
 > **Note:** R1 and R2 determine the output voltage and may need to be adjusted for output voltages other than 3.3V.
-
-## Soldering Process
-
-Due to the size of the components, **reflow soldering with solder paste is the recommended assembly method**. The PCB footprint has been designed with sufficiently large pads, allowing solder paste to be applied manually in most cases without the need for a stencil.
-
-With enough patience, good flux, and a fine-tip soldering iron, the board can also be assembled by hand, although reflow soldering will generally provide the best results.
-
-**Watch the soldering process** [here](assets/20260602_181943_MP1584EN-Soldering.mp4)
 
 ## Module Design Notes
 
@@ -88,6 +88,22 @@ For output voltages other than 3.3V, refer to the MP1584 datasheet for the recom
 ### Circuit Design
 
 ![](assets/20260602_193228_image.png)
+
+## Project Sponsor
+
+<p>
+  <a href="https://www.pcbway.com/">
+    <img src="assets/pcbway-logo.png" alt="PCBWay" width="280">
+  </a>
+</p>
+
+The PCBs and PCBA assembly used for this project were kindly sponsored by **PCBWay**.
+
+The boards shown in this repository were manufactured and assembled by PCBWay. Their support helped validate the design using professionally assembled hardware.
+
+The design, documentation, testing and opinions expressed in this repository are entirely my own.
+
+If you are looking for PCB manufacturing or SMT assembly for your own projects, you can check them out at **https://www.pcbway.com/**.
 
 ## License
 
