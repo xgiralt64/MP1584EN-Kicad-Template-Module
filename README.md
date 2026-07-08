@@ -38,9 +38,28 @@ For example, a 3.3V output requires an R1 value of approximately 125kΩ.
 
 In most applications, the resistor values do not need to be exact, as small deviations will only result in a minor change in the output voltage.
 
-## Soldering Process
+## PCB Manufacturing & Assembly
 
-Due to the size of the components, **reflow soldering with solder paste is the recommended assembly method**. The PCB footprint has been designed with sufficiently large pads, allowing solder paste to be applied manually in most cases without the need for a stencil.
+Although the board can be assembled by hand, **professional SMT assembly is highly recommended** due to the small SMD package sizes and the exposed thermal pad of the MP1584EN.
+
+The prototype boards featured in this repository were professionally manufactured and assembled by **PCBWay**, who kindly sponsored the PCB fabrication and SMT assembly for this project. The boards arrived securely packaged in bubble wrap, with each assembled PCB individually sealed in an anti-static bag to protect them during shipping.
+
+<p>
+  <img src="assets/pcbbag.png" alt="MP1584EN Buck Converter" width="400" style="vertical-align: middle;">
+  <img src="assets/pcba.png" alt="MP1584EN Buck Converter" width="400" style="vertical-align: middle;">
+</p>
+
+The boards arrived much faster than I expected and the overall build quality was excellent. The PCB finish is clean, component placement is precise, and the soldering quality made it possible to start testing the hardware immediately without any rework.
+
+For projects using compact SMD components such as the MP1584EN, a professional PCBA service is an excellent option to save time and obtain reliable prototypes.
+
+### Testing the Assembled Boards
+
+The assembled boards were successfully tested and performed exactly as expected. All tested units powered up correctly on the first attempt and provided a stable 3.3 V output. During load testing, the converter was able to deliver a continuous 3 A output while maintaining stable regulation. Throughout the test, no excessive heating of the PCB or assembled components was observed under normal operating conditions, demonstrating the effectiveness of both the PCB layout and the professional SMT assembly.
+
+## Manual assembly
+
+Due to the size of the components, **reflow soldering with solder paste is the recommended manual assembly method**. The PCB footprint has been designed with sufficiently large pads, allowing solder paste to be applied manually in most cases without the need for a stencil.
 
 With enough patience, good flux, and a fine-tip soldering iron, the board can also be assembled by hand, although reflow soldering will generally provide the best results.
 
@@ -50,7 +69,7 @@ With enough patience, good flux, and a fine-tip soldering iron, the board can al
 
 
 | Reference | Value          | Description                     |
-| ----------- | ---------------- | --------------------------------- |
+| --------- | -------------- | ------------------------------- |
 | U1        | MP1584EN       | 3A Step-Down Buck Converter     |
 | L1        | 6.8µH         | Power Inductor                  |
 | D1        | Schottky Diode | 3A, ≥40V                       |
