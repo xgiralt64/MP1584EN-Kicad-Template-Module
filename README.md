@@ -42,7 +42,7 @@ In most applications, the resistor values do not need to be exact, as small devi
 
 Although the board can be assembled by hand, **professional SMT assembly is highly recommended** due to the small SMD package sizes and the exposed thermal pad of the MP1584EN.
 
-The prototype boards featured in this repository were professionally manufactured and assembled by **PCBWay**, who kindly sponsored the PCB fabrication and SMT assembly for this project. The boards arrived securely packaged in bubble wrap, with each assembled PCB individually sealed in an anti-static bag to protect them during shipping.
+The prototype boards featured in this repository were professionally manufactured and assembled by [PCBWay](https://www.pcbway.com/), who kindly sponsored the PCB fabrication and SMT assembly for this project. The boards arrived securely packaged in bubble wrap, with each assembled PCB individually sealed in an anti-static bag to protect them during shipping.
 
 <p>
   <img src="assets/pcbbag.png" alt="MP1584EN Buck Converter" width="400" style="vertical-align: middle;">
