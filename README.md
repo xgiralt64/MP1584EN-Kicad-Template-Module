@@ -52,7 +52,7 @@ The prototype boards featured in this repository were professionally manufacture
   <img src="assets/pcba.png" alt="MP1584EN Buck Converter" width="400" style="vertical-align: middle;">
 </p>
 
-The boards arrived much faster than I expected and the overall build quality was excellent. The PCB finish is clean, component placement is precise, and the soldering quality made it possible to start testing the hardware immediately without any rework.From uploading the Gerber files to receiving the assembled boards, the entire process was straightforward and required very little manual intervention.
+The boards arrived much faster than I expected and the overall build quality was excellent. The PCB finish is clean, component placement is precise, and the soldering quality made it possible to start testing the hardware immediately without any rework. From uploading the Gerber files to receiving the assembled boards, the entire process was straightforward and required very little manual intervention.
 
 For projects using compact SMD components such as the MP1584EN, the [PCBWay](https://www.pcbway.com/) professional PCBA service is an excellent option to save time and obtain reliable prototypes.
 
